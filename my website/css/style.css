@@ -38,3 +38,18 @@ body {
     font-size: 18px;
     padding-right: 15px;
 }
+
+#showcase {
+    background-image: url("../images/showcase.jpg");
+    background-position: center right;
+    height: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
