@@ -17,3 +17,24 @@ body {
     background-color: coral;
     color: #fff;
 }
+
+#navbar {
+    background-color: darkgrey;
+    color: white;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
