@@ -144,7 +144,7 @@ a:visited {}
 
 .p-box h1 {
     position: absolute;
-    top: 40px;
+    top: 100px;
     left: 200px;
 }
 
@@ -152,4 +152,9 @@ a:visited {}
     position: absolute;
     bottom: 40px;
     right: 100px;
+}
+
+.fix-me {
+    position: fixed;
+    top: 400px;
 }
