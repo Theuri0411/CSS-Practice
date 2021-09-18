@@ -6,3 +6,14 @@ body {
     line-height: 1.6em;
     margin: 0;
 }
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: coral;
+    color: #fff;
+}
