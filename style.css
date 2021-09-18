@@ -1,7 +1,7 @@
 body {
     background-color: #f4f4f4;
     color: #555;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.6em;
@@ -38,6 +38,10 @@ a:visited {}
 .container {
     width: 90%;
     margin: auto;
+}
+
+.clr {
+    clear: both;
 }
 
 .box-1 {
@@ -114,4 +118,30 @@ a:visited {}
     border: 1px solid #ccc;
     padding: 10px;
     box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+}
+
+#side-bar {
+    float: right;
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 40px;
 }
